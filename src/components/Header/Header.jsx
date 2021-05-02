@@ -1,30 +1,48 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
+    const [navStyle, setNavStyle] = useState({backgroundColor: 'transparent'});
+
+    useEffect(() => {
+        window.onscroll = () => {
+            if (window.pageYOffset > 100){
+                setNavStyle({
+                    backgroundColor: '#0c243f',
+                    transition: '0.7s'
+                })
+            }
+            else{
+                setNavStyle({
+                    backgroundColor: 'transparent',
+                })
+            }
+        }
+    }, [window.pageYOffset]);
+    
     return (
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-            <div class="container">
-                <Link class="navbar-brand" to="/">Mustaque Nadim</Link>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+        <nav style={navStyle} className="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div className="container">
+                <NavLink className="navbar-brand" to="/">Mustaque Nadim</NavLink>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <Link class="nav-link active" aria-current="page" to="/home">Home</Link>
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li className="nav-item">
+                            <NavLink activeStyle={{fontWeight: "bold", color: "white"}} className="nav-link" aria-current="page" to="/home">Home</NavLink>
                         </li>
-                        <li class="nav-item">
-                            <Link class="nav-link" to="/projects">Projects</Link>
+                        <li className="nav-item">
+                            <NavLink activeStyle={{textDecoration: 'none', fontWeight: "bold", color: "white"}} className="nav-link" to="/projects">Projects</NavLink>
                         </li>
-                        <li class="nav-item">
-                            <Link class="nav-link" to="/blogs">Blogs</Link>
+                        <li className="nav-item">
+                            <NavLink activeStyle={{fontWeight: "bold", color: "white"}} className="nav-link" to="/blogs">Blogs</NavLink>
                         </li>
-                        <li class="nav-item">
-                            <Link class="nav-link" to="/about">About Me</Link>
+                        <li className="nav-item">
+                            <NavLink activeStyle={{fontWeight: "bold", color: "white"}} className="nav-link" to="/about">About Me</NavLink>
                         </li>
-                        <li class="nav-item">
-                            <Link class="nav-link" to="/contact">Contact</Link>
+                        <li className="nav-item">
+                            <NavLink activeStyle={{fontWeight: "bold", color: "white"}} className="nav-link" to="/contact">Contact</NavLink>
                         </li>
                     </ul>
                 </div>
