@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/9NgmbN9/i-Learn.jpg",
+        "projectName": "i-Learn | Learn from Home",
+        "description": "A student can purchase any course from the ‘Course’ section on the home page. To purchase the course he must log in and pay with stripe payment gateway. Admin can see purchased courses, add courses and manage the status of any course.",
+        "technology": ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Firebase", "Bootstrap5"],
+        "liveSite": "https://knockknock-2021.web.app/",
+        "code": "https://github.com/mustaquenadim/Programming-Hero-PROJECTS/tree/main/complete-website"
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/N32kCs8/Boiyer-Dokan.jpg",
+        "projectName": "Boiyer Dokan | Online Book Store",
+        "description": "A customer can order books from the home page and see his/her ordered books from the order page. Before placing an order he must log in with email and password or Google Authentication. There’s an Admin Dashboard where an Admin can manage, add and edit orders.",
+        "technology": ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Firebase", "Bootstrap5"],
+        "liveSite": "https://fullstack-auth-c5217.web.app/",
+        "code": "https://github.com/mustaquenadim/Programming-Hero-PROJECTS/tree/main/full-stack"
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/196Tn36/safe-ride.jpg",
+        "projectName": "Safe Ride | Ride-Sharing Platform",
+        "description": "Man/Woman can select a ride (Bike, Bus, Train, Ship) and enter the destination and journey time where and when he/she wants to go. Google Map will help him/her to decide his destination. To go to the destination he/she must log in with google or email and password.",
+        "technology": ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Firebase", "Bootstrap5"],
+        "liveSite": "https://react-auth-e0e8e.web.app/",
+        "code": "https://github.com/mustaquenadim/Programming-Hero-PROJECTS/tree/main/react-auth-mustaquenadim-main/react-auth-mustaquenadim-main"
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/5sqdGqw/sports-league.jpg",
+        "projectName": "Sports League",
+        "description": "Man/Woman can select a ride (Bike, Bus, Train, Ship) and enter the destination and journey time where and when he/she wants to go. Google Map will help him/her to decide his destination. To go to the destination he/she must log in with google or email and password.",
+        "technology": ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Firebase", "Bootstrap5"],
+        "liveSite": "https://vigilant-knuth-dc9d81.netlify.app/",
+        "code": "https://github.com/mustaquenadim/Programming-Hero-PROJECTS/tree/main/react-router-mustaquenadim-main/react-router-mustaquenadim-main"
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/wByDCZt/TSU.jpg",
+        "projectName": "The Strikers  United",
+        "description": "Man/Woman can select a ride (Bike, Bus, Train, Ship) and enter the destination and journey time where and when he/she wants to go. Google Map will help him/her to decide his destination. To go to the destination he/she must log in with google or email and password.",
+        "technology": ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Firebase", "Bootstrap5"],
+        "liveSite": "https://quirky-bohr-d13786.netlify.app/",
+        "code": "https://github.com/mustaquenadim/Programming-Hero-PROJECTS/tree/main/simple-react-mustaquenadim-main/simple-react-mustaquenadim-main"
+    }
+]
