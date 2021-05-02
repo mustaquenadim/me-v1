@@ -28,9 +28,12 @@ const Projects = () => {
                                     <p class='card-text'>{card.description}</p>
                                     {card.technology.map(tech => (<button className="btn btn-primary m-1">{tech}</button>))}
                                     <br/>
-                                    <a href={card.liveSite}></a><a href=""></a>
-                                    <button className="btn btn-success m-1">Live Site</button>
-                                    <button className="btn btn-success m-1">Code</button>
+                                    <a href={card.liveSite} target="_blank" rel="noreferrer">
+                                        <button className="btn btn-success m-1">Live Site</button>
+                                    </a>
+                                    <a href={card.code} target="_blank" rel="noreferrer">
+                                        <button className="btn btn-success m-1">Code</button>
+                                    </a>
                                 </div>
                             </div>
                         </div>

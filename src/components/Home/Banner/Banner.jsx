@@ -1,15 +1,20 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Typical from 'react-typical';
 
 const Banner = () => {
     return (
         <div style={{height: "100vh"}} className="banner-image d-flex justify-content-center align-items-center">
             <div className="container text-white">
-                <h5>Hello</h5>
                 <h1 style={{fontSize: "80px"}}>I'm Nadim</h1>
-                <h2>MERN Stack Developer</h2>
+                <Typical steps={['MERN Stack Developer', 1000, 'Programmer', 1000, 'Problem Solver', 1000]} loop={Infinity} wrapper="h3" />
                 <div className="d-flex">
-                    <button className="btn btn-danger rounded-pill">Resume</button>
-                    <button className="btn btn-danger rounded-pill">Projects</button>
+                    <a href="https://drive.google.com/file/d/1WP9oYYRPF3d589Wl7bXrHwnJeiX1fKy2/view?usp=sharing" target="_blank" rel="noreferrer">
+                        <button className="btn btn-danger rounded-pill m-1">Resume</button>
+                    </a>
+                    <Link to="/projects">
+                        <button className="btn btn-danger rounded-pill m-1">Projects</button>
+                    </Link>
                 </div>
             </div>
         </div>
