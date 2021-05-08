@@ -40,31 +40,6 @@ const Contact = () => {
                     </form>
                 </div>
             </div>
-            {/* <div className="container py-5">
-            <div className="m-auto bg-success p-3 rounded shadow">
-                    <form onSubmit={sendEmail}>
-                        <div className="row">
-                            <div className="col-lg-6">
-                                <div className="mb-3">
-                                    <input type="text" className="form-control" name='fullName' placeholder="Full Name" />
-                                </div>
-                                <div className="mb-3">
-                                    <input type="email" className="form-control" name="email" placeholder="Email" />
-                                </div>
-                                <div className="mb-3">
-                                    <input type="text" className="form-control" name="subject" placeholder="Subject" />
-                                </div>
-                            </div>
-                            <div className="col-lg-6">
-                                <div className="mb-3">
-                                    <textarea type="text" className="form-control" rows="5" name="message" placeholder='Message'></textarea>
-                                </div>
-                            </div>
-                        </div>
-                        <input type="submit" className="w-100 btn btn-primary" value="Send Message" />
-                    </form>
-                </div>
-            </div> */}
         </div>
     );
 };

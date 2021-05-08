@@ -1,7 +1,7 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 *{
-  font-family: 'Montserrat', sans-serif;
-} */
+  font-family: 'Open Sans', sans-serif;
+}
 
 .banner-image {
   background-image: url('./assets/header-img.jpg');
@@ -11,15 +11,4 @@
 .banner {
   background-image: url('./assets/banner.jpg');
   background-size: cover;
-}
-
-.scroll {
-  height: 200px;
-  overflow: hidden;
-}
-.ss {
-    transition: all 2000ms ease-out;
-}
-.scroll:hover .ss {
-    transform: translateY(-100%);
 }
