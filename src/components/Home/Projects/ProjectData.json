@@ -50,7 +50,7 @@
         "projectName": "Cooking Master",
         "description": "Man/Woman can select a ride (Bike, Bus, Train, Ship) and enter the destination and journey time where and when he/she wants to go. Google Map will help him/her to decide his destination. To go to the destination he/she must log in with google or email and password.",
         "technology": ["ReactJS", "Bootstrap5"],
-        "liveSite": "https://quirky-bohr-d13786.netlify.app/",
-        "code": "https://github.com/mustaquenadim/Programming-Hero-PROJECTS/tree/main/simple-react-mustaquenadim-main/simple-react-mustaquenadim-main"
+        "liveSite": "https://mustaquenadim.github.io/cooking-master/index.html",
+        "code": "https://github.com/mustaquenadim/cooking-master"
     }
 ]

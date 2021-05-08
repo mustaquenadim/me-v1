@@ -41,6 +41,11 @@ const Navbar = () => {
                         <li class="nav-item px-2">
                             <a class="nav-link" href="#Contact">Contact</a>
                         </li>
+                        <li class="nav-item px-2">
+                            <a href="https://drive.google.com/u/0/uc?id=1WP9oYYRPF3d589Wl7bXrHwnJeiX1fKy2&export=download" target="_blank" rel="noreferrer">
+                                <button className="btn btn-danger rounded-0 m-1 px-4">Resume</button>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
